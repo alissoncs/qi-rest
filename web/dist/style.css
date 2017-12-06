@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    color: #666;
+    font-size: 15px;
+}
+.usuarios {
+    float: left;
+    width: 400px;
+    list-style-type: none;
+    margin: 0 0 30px 0;
+}
+.usuarios li {
+    padding: 12px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    background: #EEE;
+    color: #666;
+
+}
+form {
+    width: 650px;
+    float: left;
+    padding: 20px;
+}
+form div {
+    display: block;
+    margin: 0 0 20px 0;
+}
+form label {
+    display: block;
+}
+form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+button {
+    border-radius: 10px;
+    padding: 12px;
+    border: 0;
+    background: #66de66;
+    color: #FFF;
+    font-size: 15px;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}

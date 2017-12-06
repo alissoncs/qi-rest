@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Usuarios</title>
+        <link rel="stylesheet" href='style.css'>
+    </head>
+    <body>
+        <h1>Ok</h1>
+
+        <ul class="usuarios">
+
+        </ul>
+
+        <form autocomplete="off">
+            <div>
+            <label>Nome</label>
+                <input name='nome' required/>
+            </div>
+            <div>
+            <label>CEP</label>
+                <input name='cep' required/>
+                <button type='button' id="cepbtn">Buscar cep</button>
+            </div>
+            <div>
+            <label>Rua</label>
+                <input name='logradouro' required/>
+            </div>
+            <div>
+            <label>numero</label>
+                <input name='numero' required/>
+            </div>
+            <div>
+            <label>Complemento</label>
+                <input name='complemento'/>
+            </div>
+            <div>
+            <label>Cidade</label>
+                <input name='cidade' required/>
+            </div>
+            <div>
+            <label>estado</label>
+                <input name='estado' required/>
+            </div>
+            
+            <button type='submit'>Salvar</button>
+        </form>
+
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="bundle.js"></script>
+    </body>
+</html>
